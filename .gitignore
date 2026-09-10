@@ -1,0 +1,27 @@
+# data
+data/raw
+data/processes
+
+# Docs
+docs/
+
+# Results
+results/
+
+models/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.conda/
+.venv/
+
+# OS
+.DS_Store
