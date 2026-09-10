@@ -1,18 +1,26 @@
-# data
-data/raw
-data/processes
+# Data — ignore contents, keep folder structure
+data/*
+!data/.gitkeep
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
 
-# Docs
-docs/
+# Results — ignore contents, keep folder structure
+results/*
+!results/.gitkeep
+!results/tables/
+!results/tables/.gitkeep
+!results/figures/
+!results/figures/.gitkeep
 
-# Results
-results/
+# Models — ignore contents, keep folder structure
+models/*
+!models/.gitkeep
 
-models/
+# Python
 __pycache__/
 *.pyc
-.DS_Store
-.ipynb_checkpoints/
 *.py[cod]
 .pytest_cache/
 
